@@ -1,0 +1,1 @@
+# DEPO Kresťanské komunitné centrum
