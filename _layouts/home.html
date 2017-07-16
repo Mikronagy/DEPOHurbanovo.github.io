@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div>
+
+      <header class="header-background">
+        <div class="container mx-auto px-2 mb-2 clearfix header-text">
+          <div id="logo"><span></span></div>
+
+          <div class="clearfix mb-4 py-1">
+            <div class="col-12 sm-width-full left border-top-thin">
+              <div id="header-table" class="table">
+                <div class="inline-block mt-3 mr-1">
+                  {% include {{ site.social_link | default: "facebook" }}.html %}
+                </div>
+                <div class="inline-block mt-3 mr-1">
+                  {% include github.html %}
+                </div>
+
+                <div class="inline-block mt-3 mr-1">
+                  <p id="mission" class="h4 lh-condensed font-smoothing py-1">
+                    <strong>D</strong>ôvera, <strong>E</strong>mpatia,
+                    <strong>P</strong>riateľstvo, <strong>O</strong>chrana
+                  </p>
+                </div>
+              </div>
+              <p class="lh-condensed font-smoothing">
+                <br />
+                <strong>Kresťanské komunitné centrum DEPO</strong> je miestom pre každého, mladého či starého.
+                Zariadenie ponúka návštevníkom rôzne komunitné aktivity a príjemé trávenie voľného času.
+                <br /><br />
+
+                <strong>Miesto:</strong> Bývala ľadová plocha Hurbanovo.
+                <br /><br />
+                <strong>V DEPE ponúkame:</strong>
+              </p>
+              <ul>
+                <li class="font-smoothing">Organizované záujmové akcie (viď. nižšie)</li>
+                <li class="font-smoothing">Spoločenské hry a workshopy</li>
+                <li class="font-smoothing">Leňošenie v klubovej obývačke, pri čaji a káve</li>
+                <li class="font-smoothing">Stolný tenis a futbal, biliard</li>
+                <li class="font-smoothing">Free Wifi zónu</li>
+              </ul>
+              <p class="lh-condensed font-smoothing">
+                <br />
+                Komunitné centrum je štandardne otvorené <strong><u>v piatok a v sobotu od 16:00 do 19:00</u></strong>.<br />
+                Informácie o špeciálnych akciách a zmenách v otváracích hodinách nájdete na Facebooku.
+                <br /><br />
+                Všetky aktivity, vstup a občerstvenie v DEPE sú <strong><u>bezplatné</u></strong>.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+      <div class="container mx-auto px-2 py-2">
+        {% for post in site.posts %}
+          {% include post_block.html %}
+        {% endfor %}
+      </div>
+
+      {% include map.html %}
+    </div>
+
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+  </body>
+
+</html>
