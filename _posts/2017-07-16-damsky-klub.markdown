@@ -15,4 +15,4 @@ Mamičky, babičky...máte chvíľu voľného času? Chceli by ste ho stráviť 
 
 **Kedy najbližšie?**
 
-04\. August 17:30
+18\. August 17:30
