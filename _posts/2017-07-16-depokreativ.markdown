@@ -13,6 +13,4 @@ Máš radosť z kreatívnych výtvorov svojich rúk? Rada sa pochváliš vlastn�
 
 **Kedy najbližšie?**
 
-21\. Júl 17:00
-
 25\. August 17:00
