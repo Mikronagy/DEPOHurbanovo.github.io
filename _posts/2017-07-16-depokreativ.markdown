@@ -4,6 +4,7 @@ title:  "DEPOkreatív"
 date:   2017-07-16 19:19:19 +0200
 categories: jekyll update
 image: depokreativ.jpg
+published: false
 ---
 Máš radosť z kreatívnych výtvorov svojich rúk? Rada sa pochváliš vlastnými šperkami či inými „blbôstkami“ a dekoráciami? Tak príď a vytvor si niečo jedinečné, niečo svoje s ďalšími nadšencami kreativity. Nápadov nikdy nie je dosť a fantázii sa medze predsa nekladú!
 

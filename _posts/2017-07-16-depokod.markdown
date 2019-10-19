@@ -4,6 +4,7 @@ title:  "DEPOkód"
 date:   2017-07-16 19:19:19 +0200
 categories: jekyll update
 image: depokod.jpg
+published: false
 ---
 Programovanie, kódenie, skriptovanie - nech to nazveme akokoľvek, baví ťa hovoriť počítaču čo má robiť? Sme skupina rôznych vývojárov ktorých baví všetko od hardware-u, algoritmizácie, automatizácie, spracovania dát, webu, desktopových aplikácií a hlavne učenie sa a spájania toho všetkého do vlastných mini-projektov. Schopnosti máme tiež rôzne, od úplných začiatočníkov až po skúsenych developerov, takže každý je vítaný.
 Pripoj sa k nám, príď sa niečo naučiť a spolu vytvoríme niečo zaujímavé!
